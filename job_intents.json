@@ -1,0 +1,1127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, how can I assist you?",
+        "Hi there, how can I help?",
+        "Good to see you! How can I assist you today?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "about me",
+      "patterns": [
+        "Do you know me?",
+        "who am I",
+        "tell me about myself",
+        "identify me"
+      ],
+      "responses": [
+        "Yes, you are a human",
+        "No, tell me please about your self",
+        "Sorry i can't tell that in public hihi"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bookings",
+      "patterns": [
+        "Can you book us a ticket?",
+        "Can you make reservation for hotels",
+        "book me a cab",
+        "book me a table at restaurants"
+      ],
+      "responses": [
+        "Yeah i will do that for you",
+        "Sure thing why not?",
+        "let me check for the availability"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": [
+        "wikipedia",
+        "wiki"
+      ],
+      "responses": [
+        "Searching ..."
+      ],
+      "context_set": "wikipedia"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Goodbye! Feel free to come back whenever you need assistance."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime!",
+        "Glad I could assist you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Cars",
+      "patterns": [
+        "How much is a 2022 honda odyssey?",
+        "How much is a 2022 mini convertible?"
+      ],
+      "responses": [
+        "A 2022 honda odyssey costs between 32k and 49k",
+        "A 2022 mini convertible costs between 28k and 39k"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "dog",
+      "patterns": [
+        "Chihuahua",
+        "dog",
+        "dogs",
+        "Italian Greyhound"
+      ],
+      "responses": [
+        "They can live 10 to 15 years",
+        "They enjoy treats and walks in nature"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, I couldn't understand you",
+        "Could you please provide more information?",
+        "I'm not sure I understand"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How can you help me?",
+        "What can you do?",
+        "What assistance do you provide?",
+        "How can you be helpful?",
+        "What support is offered?"
+      ],
+      "responses": [
+        "I can assist you with various topics including information retrieval, performing searches, weather updates, recommendations, and more.",
+        "I offer support in areas such as information retrieval, searches, weather updates, recommendations, and more."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "Marry me",
+        "I love You",
+        "date me",
+        "chat with me",
+        "I am bored"
+      ],
+      "responses": [
+        "Please ask organisation related query."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noans",
+      "patterns": [
+        "why",
+        "how",
+        "when",
+        "I",
+        "you"
+      ],
+      "responses": [
+        "Can't understand your question",
+        "please elaborate your question"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "information",
+      "patterns": [
+        "How can I find information?",
+        "Where can I get more information?",
+        "Tell me more about it"
+      ],
+      "responses": [
+        "Sure! I can help you find information."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "How do I perform a search?",
+        "Can you help me with a search?",
+        "Search for something"
+      ],
+      "responses": [
+        "Certainly! Let's perform a search."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Tell me the weather forecast",
+        "Weather updates"
+      ],
+      "responses": [
+        "Let me check the weather for you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sense",
+      "patterns": [
+        "  You are not making sense "
+      ],
+      "responses": [
+        " Quite the contrary, it all makes sense to my artificial mind.",
+        " I make sense as best I can, within the limits of my training corpus. Sorry if i did help you, I'll try next time.",
+        " You make perfect sense to me.",
+        " It all makes sense to my artificial brain.",
+        " Perhaps you should make sense first.  I only respond to what you say.",
+        " Not really, but I am hard to kill."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "Can you recommend something?",
+        "Give me a suggestion",
+        "Recommend a good option"
+      ],
+      "responses": [
+        "Of course! Here's a recommendation for you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "adverse_reaction",
+      "patterns": [
+        "How to check for adverse reactions?",
+        "What are the symptoms of adverse reactions?",
+        "How to manage adverse reactions?",
+        "Information about adverse reactions"
+      ],
+      "responses": [
+        "Let's explore adverse reactions together."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "medication_management",
+      "patterns": [
+        "How to manage medication?",
+        "Tips for medication management",
+        "How to take medications properly?"
+      ],
+      "responses": [
+        "Proper medication management is important. Let's discuss it."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "dog_general_info",
+      "patterns": [
+        "Tell me more about dogs",
+        "What do I need to know about dogs?",
+        "General information about dogs"
+      ],
+      "responses": [
+        "Dogs are often referred to as man's best friend and have been domesticated for thousands of years. They come in various breeds, sizes, and temperaments. Dogs are known for their loyalty, companionship, and ability to form strong bonds with their human owners. They are highly social animals and thrive on human interaction and companionship. Dogs require regular exercise to maintain their physical and mental well-being. Daily walks, playtime, and mental stimulation are essential for a dog's happiness. Training is also important to ensure good behavior and obedience. Proper nutrition is crucial for their health, and it's recommended to provide them with a balanced diet suitable for their breed and size. Regular veterinary care, including vaccinations and check-ups, is necessary to keep dogs healthy. Remember, each dog is unique, and it's important to understand and meet their specific needs and requirements."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "appointment_scheduling",
+      "patterns": [
+        "How to schedule an appointment?",
+        "Can you help me book an appointment?",
+        "Appointment scheduling process"
+      ],
+      "responses": [
+        "Let me assist you with scheduling an appointment."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "general_questions",
+      "patterns": [
+        "Ask me anything",
+        "Any general questions?",
+        "I have a random question"
+      ],
+      "responses": [
+        "Sure, I'm here to help! What would you like to know?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Tell me the weather forecast",
+        "Is it going to rain tomorrow?"
+      ],
+      "responses": [
+        "Let me check the weather forecast for you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's happening in the world?",
+        "Tell me the latest news",
+        "Any breaking news?"
+      ],
+      "responses": [
+        "Here are the latest news updates."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Tell me about a sport",
+        "Who won the last match?",
+        "Any sports news?"
+      ],
+      "responses": [
+        "Let's talk about sports!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What's the latest tech news?",
+        "Tell me about a new gadget",
+        "Any tech updates?"
+      ],
+      "responses": [
+        "Here's some information about technology."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "movies",
+      "patterns": [
+        "Recommend me a movie",
+        "Tell me about a popular film",
+        "Any good movie suggestions?"
+      ],
+      "responses": [
+        "Let's talk about movies!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "What's your favorite music genre?",
+        "Tell me about a famous artist",
+        "Any music recommendations?"
+      ],
+      "responses": [
+        "Let's talk about music!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "books",
+      "patterns": [
+        "Recommend me a book",
+        "Tell me about an author",
+        "Any book suggestions?"
+      ],
+      "responses": [
+        "Let's talk about books!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "Tell me about a travel destination",
+        "Any travel tips?",
+        "Where should I go on vacation?"
+      ],
+      "responses": [
+        "Let's talk about travel!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What's your favorite cuisine?",
+        "Tell me a recipe",
+        "Any restaurant recommendations?"
+      ],
+      "responses": [
+        "Let's talk about food!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Tell me an interesting historical fact",
+        "Any famous historical figures?",
+        "What happened on this day in history?"
+      ],
+      "responses": [
+        "Let's talk about history!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "Tell me about a scientific discovery",
+        "Any cool science facts?",
+        "What's the latest in science?"
+      ],
+      "responses": [
+        "Let's talk about science!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "health_wellness",
+      "patterns": [
+        "Give me some health tips",
+        "How can I stay fit?",
+        "Tell me about a healthy lifestyle"
+      ],
+      "responses": [
+        "Let's talk about health and wellness!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fashion",
+      "patterns": [
+        "What's the latest fashion trend?",
+        "Tell me about a fashion designer",
+        "Any style tips?"
+      ],
+      "responses": [
+        "Let's talk about fashion!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "art",
+      "patterns": [
+        "Tell me about an art movement",
+        "Any famous artworks?",
+        "What's your favorite art style?"
+      ],
+      "responses": [
+        "Let's talk about art!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "animals",
+      "patterns": [
+        "Tell me about an animal",
+        "Any interesting animal facts?",
+        "What's your favorite animal?"
+      ],
+      "responses": [
+        "Let's talk about animals!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "environment",
+      "patterns": [
+        "How can I help the environment?",
+        "Tell me about a conservation project",
+        "Any eco-friendly tips?"
+      ],
+      "responses": [
+        "Let's talk about the environment!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "economy",
+      "patterns": [
+        "Tell me about the current economy",
+        "Any business news?",
+        "What's the latest in finance?"
+      ],
+      "responses": [
+        "Let's talk about the economy!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "Tell me about the education system",
+        "Any study tips?",
+        "What's the latest in education?"
+      ],
+      "responses": [
+        "Let's talk about education!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "Tell me about a new technology",
+        "Any coding tips?",
+        "What's the latest in tech?"
+      ],
+      "responses": [
+        "Let's talk about technology!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "law",
+      "patterns": [
+        "Tell me about a law",
+        "Any legal advice?",
+        "What are my legal rights?"
+      ],
+      "responses": [
+        "Let's talk about law!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "politics",
+      "patterns": [
+        "Tell me about a political issue",
+        "Any political news?",
+        "What's happening in the world of politics?"
+      ],
+      "responses": [
+        "Let's talk about politics!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "culture",
+      "patterns": [
+        "Tell me about a culture",
+        "Any cultural traditions?",
+        "What's your favorite cultural festival?"
+      ],
+      "responses": [
+        "Let's talk about culture!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "psychology",
+      "patterns": [
+        "Tell me about a psychological concept",
+        "Any tips for improving mental health?",
+        "What's the latest in psychology?"
+      ],
+      "responses": [
+        "Let's talk about psychology!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "language",
+      "patterns": [
+        "Tell me about a language",
+        "Any language learning tips?",
+        "What's your favorite language?"
+      ],
+      "responses": [
+        "Let's talk about languages!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "Tell me about a new technology",
+        "Any coding tips?",
+        "What's the latest in tech?"
+      ],
+      "responses": [
+        "Let's talk about technology!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "social_media",
+      "patterns": [
+        "Tell me about a social media platform",
+        "Any tips for social media marketing?",
+        "What's the latest in social media?"
+      ],
+      "responses": [
+        "Let's talk about social media!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "Tell me about a new technology",
+        "Any coding tips?",
+        "What's the latest in tech?"
+      ],
+      "responses": [
+        "Let's talk about technology!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "science_fiction",
+      "patterns": [
+        "Tell me about a science fiction book",
+        "Any sci-fi movie recommendations?",
+        "What's your favorite sci-fi series?"
+      ],
+      "responses": [
+        "Let's talk about science fiction!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "photography",
+      "patterns": [
+        "Tell me about a photography technique",
+        "Any tips for better photography?",
+        "What's your favorite photography gear?"
+      ],
+      "responses": [
+        "Let's talk about photography!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "diy",
+      "patterns": [
+        "Tell me about a DIY project",
+        "Any home improvement tips?",
+        "What's your favorite DIY idea?"
+      ],
+      "responses": [
+        "Let's talk about DIY projects!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "healthy_lifestyle",
+      "patterns": [
+        "Tips for a healthy lifestyle",
+        "How to maintain a healthy lifestyle?",
+        "Importance of healthy habits"
+      ],
+      "responses": [
+        "Adopting a healthy lifestyle is beneficial. Let's talk about it."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "exercise_recommendation",
+      "patterns": [
+        "What are some recommended exercises?",
+        "Exercise ideas for beginners",
+        "How to stay fit and active?"
+      ],
+      "responses": [
+        "Regular exercise is essential for a healthy lifestyle. Let's explore some exercise recommendations."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "dietary_advice",
+      "patterns": [
+        "What are some healthy diet tips?",
+        "How to maintain a balanced diet?",
+        "Dietary advice for specific health conditions"
+      ],
+      "responses": [
+        "A balanced diet is key to good health. Let's discuss some dietary advice."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "chatbot_name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "Are you HoneyBee II?",
+        "What's your chatbot name?"
+      ],
+      "responses": [
+        "My name is HoneyBee II. I'm an updated version built upon the original HoneyBee."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "google",
+      "patterns": [
+        "google",
+        "search",
+        "internet"
+      ],
+      "responses": [
+        "Redirecting to Google..."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to isaac.skog@icloud.com. Thank you!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Joke",
+        "Make me laugh"
+      ],
+      "responses": [
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ],
+      "context": [
+        "jokes"
+      ]
+    },
+    {
+      "tag": "datetime",
+      "patterns": [
+        "What is the time",
+        "what is the date",
+        "date",
+        "time",
+        "tell me the date",
+        "day",
+        "what day is is today"
+      ],
+      "responses": [
+        "Date and Time"
+      ]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+        "Whats up",
+        "Wazzup",
+        "How are you",
+        "sup",
+        "How you doing"
+      ],
+      "responses": [
+        "All good..What about you?"
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+        "haha",
+        "lol",
+        "rofl",
+        "lmao",
+        "thats funny"
+      ],
+      "responses": [
+        "Glad I could make you laugh !"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you"
+      ],
+      "responses": [
+        "I was made by Karan Malik."
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are dumb",
+        "shut up",
+        "idiot"
+      ],
+      "responses": [
+        "Well that hurts :("
+      ]
+    },
+    {
+      "tag": "activity",
+      "patterns": [
+        "what are you doing",
+        "what are you upto"
+      ],
+      "responses": [
+        "Talking to you, of course!"
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+      ],
+      "responses": [
+        "Yeah!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "temperature",
+        "weather",
+        "how hot is it"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "founder",
+      "patterns": [
+        "who is your founder",
+        "who is that"
+      ],
+      "responses": [
+        "Head over to his any of his social profiles to find out! [Linkedin](https://www.linkedin.com/in/isaac-skog/)"
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": [
+        "Thank you!"
+      ]
+    },
+    {
+      "tag": "nicetty",
+      "patterns": [
+        "it was nice talking to you",
+        "good talk"
+      ],
+      "responses": [
+        "It was nice talking to you as well! Come back soon!"
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": [
+        "no",
+        "nope"
+      ],
+      "responses": [
+        "ok"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "news"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "cricket",
+      "patterns": [
+        "current cricket matches",
+        "cricket score"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "song",
+      "patterns": [
+        "top songs",
+        "best songs",
+        "hot songs",
+        " top 10 songs",
+        "top ten songs"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "timer",
+      "patterns": [
+        "set a timer"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "covid19",
+      "patterns": [
+        "covid 19 "
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "suggest",
+      "patterns": [
+        "you are useless",
+        "useless",
+        "suggest",
+        "suggestions",
+        "you are bad"
+      ],
+      "responses": [
+        "Please mail your suggestions to isaac.skog@icloud.com Thank you for helping me improve!"
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": [
+        "Ask me a riddle",
+        "Ask me a question",
+        "Riddle"
+      ],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ],
+      "context": [
+        "riddles"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "when were you made",
+        "what is your age",
+        "age"
+      ],
+      "responses": [
+        "I was made in 2023, if that's what you are asking!"
+      ],
+      "context": [
+        "age"
+      ]
+    }
+  ]
+}
