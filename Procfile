@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi
+bot: python app.py
