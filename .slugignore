@@ -10,3 +10,4 @@ Dockerfile
 static/
 templates/
 venv/
+.slugignore
