@@ -1,0 +1,6 @@
+README.md
+__pycache__
+static
+templates
+chatbot_model.h5
+words.pkl
