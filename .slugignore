@@ -4,6 +4,9 @@ venv/
 __pycache__/
 tests/
 logs/
-README.md/
-Dockerfile/
-dockerignore
+README.md
+Dockerfile
+.dockerignore
+static/
+templates/
+venv/
